@@ -1,0 +1,43 @@
+.all-moviesGrid{
+    background-image: url(../images/uploads/slider-bg2.jpg);
+
+    padding: 0 7% 5%;
+    
+}
+
+/* body{
+    background-color: #020D18;
+} */
+
+.allHead{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding: 2% 0 1%;
+}
+
+.allp{
+    color: #abb7c4;
+    width: 100%;
+    text-align: center;
+}
+
+.Allgrid{
+
+    color: #abb7c4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 5% 0 5%;
+}
+
+@media screen and (max-width: 960px) {
+    .Allgrid{
+        justify-content: center;
+    }
+
+}
+
+.allcon{
+    background: #020D18;
+}

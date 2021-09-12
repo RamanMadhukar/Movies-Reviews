@@ -1,0 +1,17 @@
+.userList {
+    flex: 4;
+  }
+  
+  .userListUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+ 
+  
+  .userListDelete{
+      color: red;
+      cursor: pointer;
+  }

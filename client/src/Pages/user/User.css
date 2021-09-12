@@ -1,0 +1,95 @@
+.user {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .userTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .userAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .userContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+ 
+  
+  .userUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+ 
+  
+  
+  
+  .userUpdateTitle{
+      font-size: 24px;
+      font-weight: 600;
+  }
+  
+  .userUpdateForm{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  
+  .userUpdateItem{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  
+  .userUpdateItem>label{
+      margin-bottom: 5px;
+      font-size: 18px;
+      font-weight: 500;
+  }
+  
+  .userUpdateInput{
+      border: none;
+      width: 450px;
+      height: 40px;
+      border-bottom: 1px solid gray;
+  }
+  
+  @media screen and (max-width: 500px ){
+    .userUpdateInput {
+        width: 250px;
+    }
+
+}
+  
+  
+  
+  .userUpdateIcon{
+      cursor: pointer;
+  }
+  
+  .userUpdateButton{
+    margin-top: 50px;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      background-color: darkblue;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+  }

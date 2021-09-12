@@ -1,0 +1,59 @@
+
+    .car-text-div-small{
+        position: relative;
+        bottom: 20%;
+        left: 30px;
+        width: fit-content;
+    }
+  
+    .car-text-div-small h5 {
+        font-size: 16px !important;
+    }
+    .car-text-div-small h6 { 
+        font-size: 15px !important;
+    }
+
+    .car-text-div-small h5 span {
+        font-size: 10px !important;
+    }
+    .carousel-movie .car-card img{
+        width: 185px;
+        height: 284px;
+    
+    }
+
+    .small-card .car-card{
+        color: #fff;
+        height: 400px;
+    }
+
+    /* .small-card .car-card .movie-img:hover{
+        opacity: .3;
+    } */
+
+    .small-card .car-card:hover .read-more{
+        opacity: 1 !important;
+
+    }
+
+    .read-more{
+        position: relative;
+        bottom: 40%;
+        left: 35%;
+        opacity: 0;
+        border: none;
+
+    }
+
+    .read-more button{
+        border: none;
+        border-radius: 30px  ;
+        background-color: #DD003F;
+        color: white;
+        padding: 5% 7%;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    
+    

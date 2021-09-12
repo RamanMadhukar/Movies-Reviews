@@ -1,0 +1,64 @@
+.allTop{
+
+    width: fit-content;
+    height: 340px;
+    padding-bottom: 25px;
+    margin: 0 15px;
+
+}
+
+.alltop-img{
+    width: 185px;
+    height: 284px;
+
+}
+
+.alltop-img img{
+    border-radius: 12px !important;
+
+}
+
+
+
+.all-readmore{
+
+    position: relative;
+    bottom: 40%;
+    left: 35%;
+    opacity: 0;
+    border: none;
+
+}
+
+.allTop:hover .all-readmore {
+    opacity: 1 !important;
+}
+
+.all-readmore button{
+    border: none;
+    border-radius: 30px  ;
+    background-color: #DD003F;
+    color: white;
+    padding: 5% 7%;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.allSamllText{
+    position: relative;
+    bottom: 5%;
+    width: fit-content;
+}
+
+.allSamllText h5 {
+    font-size: 16px !important;
+}
+.allSamllText h6 { 
+    font-size: 15px !important;
+    padding-bottom: 2px;
+}
+
+.allSamllText h5 span {
+    font-size: 10px !important;
+}
+

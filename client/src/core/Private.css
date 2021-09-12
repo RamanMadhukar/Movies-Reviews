@@ -1,0 +1,10 @@
+.user-profile{
+    background-image: url("../../src/Pages/images/uploads/slider-bg2.jpg");
+  
+    color: #fff;
+    text-align: center;
+}
+
+.user-profile h1 {
+    padding: 5%;
+}

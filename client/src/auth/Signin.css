@@ -1,0 +1,54 @@
+/* login page */
+
+.login-div{
+    background-image: url(../../src/Pages/images/uploads/slider-bg2.jpg);
+    min-height: 100vh;
+}
+
+
+
+.topGrid{
+
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.paperStyle{
+    padding: 20px;
+    height: 70vh;
+    width: 300px;
+    margin: 25px auto 0;
+}
+
+.lock{
+    background: #11c078 !important ;
+}
+
+.loginbtn{
+    margin: 3rem 0 15px 0 !important ;
+
+}
+
+.logHead{
+    font-family: 'Dosis', sans-serif ;
+    font-weight: 700;
+}
+
+.logText{
+    font-family: 'Dosis', sans-serif !important ;
+    margin: 5px 0 !important ;
+}
+
+.remCheck{
+    margin: 7px ! important;
+}
+
+.bottomDiv{
+    margin-top: 15px;
+}
+
+.Fp{
+    color: #666666 !important;
+    padding-bottom: 2px;
+}

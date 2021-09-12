@@ -1,0 +1,76 @@
+.car-text-div{
+    position: relative;
+    bottom: 25%;
+    left: 30px;
+    width: fit-content;
+}
+
+.blue{
+    background-color: #1692bb !important;
+    color: #fff;
+}
+
+.yellow{
+    background-color: #f5b50a !important;
+    color: #fff;
+}
+
+.green{
+    background-color: #f5b50a !important;
+    color: #fff;
+}
+
+.orange{
+    background-color: #f5b50a !important;
+    color: #fff;
+}
+
+.car-text-span{
+    margin: 3px 1px 0 3px;
+    padding: 0 3px;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.car-text-span a{
+    color: #fff;
+    font-size: 10px;
+    height: fit-content !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.car-text-div h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.car-card{
+    color: #fff;
+    height: 400px;
+}
+
+.car-card img{
+    width: 274px;
+    height: 420px;
+}
+
+/* .car-card:hover{
+    color: #dcf836 !important;
+} */
+
+.car-text-div h5{
+    font-size: 18px;
+}
+
+.car-text-div:hover {
+    color: #dcf836 !important;
+    cursor: pointer;
+}
+.car-text-div h5 span{
+    font-size: 10px;
+    color: #fff !important;
+}
+
