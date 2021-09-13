@@ -217,7 +217,7 @@ const Home = () => {
                     <img src="https://i.pinimg.com/564x/d4/3e/39/d43e39a50041e7cc2090c3bd42100fda.jpg" width="80%" alt="" />
                        
                     </div>
-                    <img src="../../../images/uploads/ads1 (1).png" alt="" />
+                    <img src="../../../images/uploads/ads1 (1).png" alt="" width="90%" />
                      
 
                     </Container>

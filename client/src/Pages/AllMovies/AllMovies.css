@@ -1,7 +1,7 @@
 .all-moviesGrid{
     background-image: url(../images/uploads/slider-bg2.jpg);
 
-    padding: 0 7% 5%;
+    padding-bottom:  5%;
     
 }
 
@@ -40,4 +40,8 @@
 
 .allcon{
     background: #020D18;
+}
+
+.all-search{
+    padding: 0 7% 0;
 }
