@@ -18,41 +18,45 @@ const AllMovies = () => {
                 <section className="all-moviesGrid" id="for-top">
                     <Navbar />
 
+                    <div className="all-search">
 
-                    <Grid className="search-grid" item xs={12}>
-                        <form className="search-bar">
-                            <Grid container alignItems="center">
-                                <Grid item sm={3} xs={4}>
-                                    <fieldset>
-                                        <select className="search-select">
-                                            <option value="tvShow">TV show</option>
-                                            <option value="other">Other</option>
 
-                                        </select>
 
-                                    </fieldset>
+                        <Grid className="search-grid" item xs={12}>
+                            <form className="search-bar">
+                                <Grid container alignItems="center">
+                                    <Grid item sm={3} xs={4}>
+                                        <fieldset>
+                                            <select className="search-select">
+                                                <option value="tvShow">TV show</option>
+                                                <option value="other">Other</option>
+
+                                            </select>
+
+                                        </fieldset>
+
+                                    </Grid>
+
+
+                                    <Grid item xs={8} sm={9}>
+
+                                        <fieldset>
+
+                                            <input className="search-textfield" type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for" />
+
+                                        </fieldset>
+
+                                    </Grid>
 
                                 </Grid>
 
 
-                                <Grid item xs={8} sm={9}>
-
-                                    <fieldset>
-
-                                        <input className="search-textfield" type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for" />
-
-                                    </fieldset>
-
-                                </Grid>
-
-                            </Grid>
-
-
-                        </form>
+                            </form>
 
 
 
-                    </Grid>
+                        </Grid>
+                    </div>
 
 
                     <h1 className="allHead">ALL MOVIES</h1>
