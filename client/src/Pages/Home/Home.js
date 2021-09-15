@@ -13,7 +13,7 @@ import Navbar from '../../components/Navbar/Navbar';
 const Home = () => {
     const [popular, setPopular] = useState([]);
     useEffect(() => {
-        getPopular(); 
+        getPopular();
     }, []);
 
     const getPopular = () => {
@@ -32,7 +32,7 @@ const Home = () => {
 
     const [latest, setLatest] = useState([]);
     useEffect(() => {
-        getLatest(); 
+        getLatest();
     }, []);
 
     const getLatest = () => {
@@ -52,7 +52,7 @@ const Home = () => {
         { width: 400, itemsToShow: 1 },
         { width: 600, itemsToShow: 2 },
         { width: 800, itemsToShow: 3 },
-        { width: 1000, itemsToShow: 4 } 
+        { width: 1000, itemsToShow: 4 }
 
     ];
 
@@ -67,7 +67,7 @@ const Home = () => {
     return (
         <>
             <section id="top-sec">
-              <Navbar />
+                <Navbar />
                 <Grid container className="top-grid">
                     <Grid className="search-grid" item xs={12}>
                         <form className="search-bar">
@@ -107,18 +107,18 @@ const Home = () => {
                     <Grid container xs={12} >
                         <Carousel breakPoints={breakPoints} className="carousel" >
 
-                        
-                        {
-                                popular.map(pop =>(
-                                    <Poster
-                                movieImg={`/uploads/${pop.movieImage}`}
-                                movieCat={pop.movieCat}
-                                movieLang={pop.movieLang}
-                                rating={pop.imdbRating}
-                                name={pop.name}
 
-                            />
-                                      ))
+                            {
+                                popular.map(pop => (
+                                    <Poster
+                                        movieImg={`/uploads/${pop.movieImage}`}
+                                        movieCat={pop.movieCat}
+                                        movieLang={pop.movieLang}
+                                        rating={pop.imdbRating}
+                                        name={pop.name}
+
+                                    />
+                                ))
                             }
 
                         </Carousel>
@@ -138,23 +138,23 @@ const Home = () => {
 
                                 <h1>Latest Movies</h1>
 
-                                <h4 className="fat">View All <i className="fas fa-chevron-right"></i></h4>
+                                <a href="all-movies"><h4 className="fat">View All <i className="fas fa-chevron-right"></i></h4></a>
 
 
                             </div>
 
                             <Carousel breakPoints={slideBreakpoints} className="carousel-movie" >
 
-                            {
-                                latest.map(lat => (
-                                    <SmallPoster
-                                    movieImg={`/uploads/${lat.movieImage}`}
-                                    name={lat.name}
-                                    rating={lat.imdbRating}
-                                />
-                                ))
-                            }
-                 
+                                {
+                                    latest.map(lat => (
+                                        <SmallPoster
+                                            movieImg={`/uploads/${lat.movieImage}`}
+                                            name={lat.name}
+                                            rating={lat.imdbRating}
+                                        />
+                                    ))
+                                }
+
                             </Carousel>
 
                         </Grid>
@@ -165,38 +165,38 @@ const Home = () => {
 
                                 <h1>ON TV</h1>
 
-                                <h4 className="fat">View All <i className="fas fa-chevron-right"></i></h4>
+                                <a href="/all-movies"><h4 className="fat">View All <i className="fas fa-chevron-right"></i></h4></a>
 
 
                             </div>
                             <Carousel breakPoints={slideBreakpoints} className="carousel-movie" >
-                               
-                              <SmallPoster
+
+                                <SmallPoster
                                     movieImg="../../../images/uploads/mv-it7.jpg"
                                     name="INTERSTTLER"
                                     rating="8.4"
                                 />
-                                 <SmallPoster
+                                <SmallPoster
                                     movieImg="../../../images/uploads/mv-it7.jpg"
                                     name="INTERSTTLER"
                                     rating="8.4"
                                 />
-                                 <SmallPoster
+                                <SmallPoster
                                     movieImg="../../../images/uploads/mv-it7.jpg"
                                     name="INTERSTTLER"
                                     rating="8.4"
                                 />
-                                 <SmallPoster
+                                <SmallPoster
                                     movieImg="../../../images/uploads/mv-it7.jpg"
                                     name="INTERSTTLER"
                                     rating="8.4"
                                 />
-                                 <SmallPoster
+                                <SmallPoster
                                     movieImg="../../../images/uploads/mv-it7.jpg"
                                     name="INTERSTTLER"
                                     rating="8.4"
                                 />
-                                 <SmallPoster
+                                <SmallPoster
                                     movieImg="../../../images/uploads/mv-it7.jpg"
                                     name="INTERSTTLER"
                                     rating="8.4"
@@ -212,18 +212,18 @@ const Home = () => {
                     </Grid>
 
                     <Grid item md={4} xs={12}>
-                    <Container>
-                    <div className="img-container">
-                    <img src="https://i.pinimg.com/564x/d4/3e/39/d43e39a50041e7cc2090c3bd42100fda.jpg" width="80%" alt="" />
-                       
-                    </div>
-                    <img src="../../../images/uploads/ads1 (1).png" alt="" width="90%" />
-                     
+                        <Container>
+                            <div className="img-container">
+                                <img src="https://i.pinimg.com/564x/d4/3e/39/d43e39a50041e7cc2090c3bd42100fda.jpg" width="80%" alt="" />
 
-                    </Container>
-                    
-                    
-                        
+                            </div>
+                            <img src="../../../images/uploads/ads1 (1).png" alt="" width="90%" />
+
+
+                        </Container>
+
+
+
                     </Grid>
 
 

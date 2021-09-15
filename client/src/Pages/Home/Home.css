@@ -12,7 +12,8 @@ fieldset{
 
 }
 a{
-    text-decoration: none !important;  
+    text-decoration: none !important; 
+    /* color: white;  */
 }
 
 /* top section */
@@ -148,17 +149,17 @@ a{
     
 }
 
-.heading-flex h4 {
+.heading-flex a {
     margin-right: 4%;
     text-transform: uppercase;
     font-size: 14px;
     align-items: center;
     justify-content: center;
     
-    color:#abb7c4;
+    color:#abb7c4 !important;
 
 }
-.fat:hover {
+.heading-flex a:hover {
     cursor: pointer !important;
     color: #dd003f !important;
 }
